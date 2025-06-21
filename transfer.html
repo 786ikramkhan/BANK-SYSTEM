@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Transfer Money - MyBank</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>MyBank</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="logout.html">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="form-container">
+      <h2>Transfer Money</h2>
+      <form action="#" method="POST" id="transferForm">
+        <div class="form-group">
+          <label for="recipient">Recipient Username or Account Number</label>
+          <input type="text" id="recipient" name="recipient" placeholder="Enter recipient's username or account number" required>
+        </div>
+
+        <div class="form-group">
+          <label for="amount">Amount to Transfer</label>
+          <input type="number" id="amount" name="amount" placeholder="Enter amount" required min="1">
+        </div>
+
+        <div class="form-group">
+          <label for="note">Note (Optional)</label>
+          <input type="text" id="note" name="note" placeholder="Write a note (optional)">
+        </div>
+
+        <button type="submit" class="btn">Transfer</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MyBank. All rights reserved.</p>
+  </footer>
+
+  <script src="js/transactions.js"></script>
+</body>
+</html>
