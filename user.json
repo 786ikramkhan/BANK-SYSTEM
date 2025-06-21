@@ -1,0 +1,28 @@
+{
+  "john_doe": {
+    "email": "john@example.com",
+    "password": "123456",
+    "balance": 1000,
+    "transactions": [
+      {
+        "type": "Deposit",
+        "amount": 1000,
+        "note": "Initial deposit",
+        "date": "2025-06-21 10:00 AM"
+      }
+    ]
+  },
+  "jane_smith": {
+    "email": "jane@example.com",
+    "password": "abcdef",
+    "balance": 500,
+    "transactions": [
+      {
+        "type": "Deposit",
+        "amount": 500,
+        "note": "Savings",
+        "date": "2025-06-20 2:30 PM"
+      }
+    ]
+  }
+}
