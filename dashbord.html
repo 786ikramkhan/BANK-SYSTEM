@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard - MyBank</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>MyBank</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="logout.html">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="dashboard-container">
+      <h2>Welcome, [Username]</h2>
+      <div class="account-summary">
+        <h3>Account Summary</h3>
+        <p><strong>Account Number:</strong> 1234567890</p>
+        <p><strong>Account Type:</strong> Savings</p>
+        <p><strong>Current Balance:</strong> $10,000.00</p>
+      </div>
+
+      <div class="dashboard-actions">
+        <h3>Quick Actions</h3>
+        <div class="action-buttons">
+          <a href="deposit.html" class="btn">Deposit Money</a>
+          <a href="withdraw.html" class="btn">Withdraw Money</a>
+          <a href="transfer.html" class="btn">Transfer Money</a>
+          <a href="transactions.html" class="btn">View Transactions</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MyBank. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Optional JS: Replace [Username] with actual username if using JS-based login
+    document.querySelector("h2").innerText = "Welcome, JohnDoe"; // replace with dynamic data if needed
+  </script>
+</body>
+</html>
