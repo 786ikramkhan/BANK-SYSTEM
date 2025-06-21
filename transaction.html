@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Transaction History - MyBank</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>MyBank</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="logout.html">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="transaction-history">
+      <h2>Transaction History</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Type</th>
+            <th>Amount</th>
+            <th>Recipient/From</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Example data; dynamically populate in real projects -->
+          <tr>
+            <td>2025-06-20</td>
+            <td>Deposit</td>
+            <td>$1,000.00</td>
+            <td>-</td>
+            <td>Successful</td>
+          </tr>
+          <tr>
+            <td>2025-06-19</td>
+            <td>Transfer</td>
+            <td>$500.00</td>
+            <td>Ali Khan</td>
+            <td>Successful</td>
+          </tr>
+          <tr>
+            <td>2025-06-18</td>
+            <td>Withdraw</td>
+            <td>$200.00</td>
+            <td>-</td>
+            <td>Pending</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MyBank. All rights reserved.</p>
+  </footer>
+</body>
+</html>
